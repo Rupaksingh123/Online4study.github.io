@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 5, 2019, 6:04:11 PM
+    Author     : Rox
+*/
+
+*{
+    margin: 0;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color:#666666;
+}
+
+.logo a{
+    font-size: 50px;
+    text-decoration: none;
+   display: block;
+   height: 60px;
+   margin-bottom: -10px;
+   margin-left: 25px;
+   margin-right: 10px;
+   margin-top: 10px;
+   width: 230px;
+}
+li {
+ 
+    //display: list-item;
+    text-align: -webkit-match-parent;
+}
+.navigation-menu ul li {
+      display: block;
+    font-size: 20px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Course a{
+    
+     text-decoration: none;
+   display: block;
+}
+
+.navigation-menu{
+    color: #ff00ff;
+    height: 50px;
+    background-color: #8a8782;
+}
+
+
+
+.Qjava{
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-right: 30%;
+    padding-top: 5px;
+}
+
+@media only screen and (min-width: 992px)
+.blog-body .blog-title-details, .blog-body .blog-content {
+    padding: 1.2rem 2.5rem;
+}
+@media only screen and (min-width: 992px)
+.blog-body .blog-title-details-container, .blog-body .blog-content {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.12);
+    border-radius: 2px;
+    background: #fff;
+}
+.blog-body .blog-content {
+    overflow: hidden;
+}
+.blog-body .blog-title-details, .blog-body .blogs-navigation, .blog-body .blog-content {
+    padding: 1rem 0rem;
+    font-size: 1rem;
+}
+.color-4a {
+    color: #4a4a4a;
+}
+@media (min-width: 1200px)
+.mt-xl-4, .my-xl-4 {
+    margin-top: 1.5rem!important;
+}
+@media (min-width: 992px)
+.mt-lg-4, .my-lg-4 {
+    margin-top: 1.5rem!important;
+}
+@media (min-width: 768px)
+.mt-md-4, .my-md-4 {
+    margin-top: 1.5rem!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
